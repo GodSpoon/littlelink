@@ -684,13 +684,13 @@ button:hover,
 
 /* Read.cv */
 .button.button-read-cv {
-  color: #000000;
+  color: #e8e6e3;
   background-color: #FFFFFF;
-  border: 5px solid #000000;
+  border: 5px solid #e8e6e3;
 }
 .button.button-read-cv:hover,
 .button.button-read-cv:focus {
-  filter: brightness(90%);
+  filter: brightness(95%);
 }
 
 /* Redbubble */
