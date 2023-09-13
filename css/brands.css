@@ -80,7 +80,7 @@ button:hover,
 /* Default (this is great for your own brand color!) */
 .button.button-default {
   color: #ffffff;
-  background-color: #999999;
+  background-color: #000000;
 }
 .button.button-default:hover,
 .button.button-default:focus {
@@ -685,7 +685,7 @@ button:hover,
 /* Read.cv */
 .button.button-read-cv {
   color: #FFFFFF;
-  background-color: #181a1b;
+  background-color: #3a1064;
   border: 1px solid #FFFFFF;
 }
 .button.button-read-cv:hover,
