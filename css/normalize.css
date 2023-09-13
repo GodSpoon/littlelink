@@ -7,7 +7,7 @@
  */
 
 html {
-  font-family: Stylish-Regular; /* 1 */
+  font-family: Stylish-Regular; /* 1 */ /*sans-serif originally */
   -ms-text-size-adjust: 100%; /* 2 */
   -webkit-text-size-adjust: 100%; /* 2 */
 }
