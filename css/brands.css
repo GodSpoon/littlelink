@@ -80,7 +80,7 @@ button:hover,
 /* Default (this is great for your own brand color!) */
 .button.button-default {
   color: #ffffff;
-  background-color: #262626;
+  background-color: #999999;
 }
 .button.button-default:hover,
 .button.button-default:focus {
@@ -685,12 +685,12 @@ button:hover,
 /* Read.cv */
 .button.button-read-cv {
   color: #FFFFFF;
-  background-color: #000000;
+  background-color: #f12b39;
   border: 1px solid #FFFFFF;
 }
 .button.button-read-cv:hover,
 .button.button-read-cv:focus {
-  filter: brightness(90%);
+  filter: brightness(50%);
 }
 
 /* Redbubble */
