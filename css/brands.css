@@ -684,13 +684,19 @@ button:hover,
 
 /* Read.cv */
 .button.button-read-cv {
-  color: #e8e6e3;
-  background-color: #FFFFFF;
-  border: 5px solid #e8e6e3;
+    color: #ffffff;
+    background-image: linear-gradient(45deg, #000000, #333333);
+    border: 1px ridge #e8e6e3;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease-in-out;
+    font-weight: bold;
+    border-radius: 5px;
 }
+
 .button.button-read-cv:hover,
 .button.button-read-cv:focus {
-  filter: brightness(95%);
+    filter: brightness(95%);
+    border: 1px solid #e8e6e3;
 }
 
 /* Redbubble */
