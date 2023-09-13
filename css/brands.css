@@ -690,7 +690,7 @@ button:hover,
 }
 .button.button-read-cv:hover,
 .button.button-read-cv:focus {
-  filter: saturate(800%) brightness (100%);
+  filter: brightness(70%) drop-shadow(16px 16px 10px black);
 }
 
 /* Redbubble */
