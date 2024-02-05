@@ -5,15 +5,17 @@ flowchart LR
     Github(Github Repo - of littlelink Site Files) -->|Deploys to| Vercel
     Vercel -->|Hosts| SSP[Public Page]
     SSP -->|Page Links| Services[Services, \n Forms, \n etc.]
+    
     Services -->|Forms| TallyForm[Tally Forms]
     Services -->|Scheduling| Calendly
     Services -->|Calendar Integration| GCalendar[Google Calendar]
     Services -->|Payments| Payment[Paypal/Stripe]
     Services -->|Social Media| SocialMedias[Social Medias]
-    Services -->|Other Links| OtherLinks[Any Other Links]
     TallyForm -->|Integration| Calendly
     Payment --> Paypal
     Payment --> Stripe
+    GCalendar --> Calendly
+    Services -->OtherLinks[Any Other Links]
 
 ```
 
